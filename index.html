@@ -1,34 +1,371 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8" />
-		<title>Porforlio</title>
-	</head>
-	<body>
-		<article style=" text-align: center; margin-top: 150px">
-		<header>
-			<h1 style="font-size: 64px"><b>Hi</b>, I Am Calvin Mas</h1>
-		</header>
-		<Section>
-						<p style="color: grey; font-size: 32px">I have <del>100</del> <mark> <ins>10 000</ins></mark> things 
-			to do before I die so, take this exciting journey with me and hop along on my 
-			<i><a href="https://tiktok.com/@IAmCalvinMas">Tiktok</a></i>, 
-			<i><a href="https://youtube.com/@IAmCalvinMas">Youtube</a></i>, 
-			<i><a href="https://instagram.com/IAmCalvinMas">Instagram</a></i> and 
-			<i><a href="https://twitter.com/IAmCalvinMas">Twitter</a></i>.
-		  <br><br>
-			<sub>Let's</sub><strong>Do</strong><sup>this</sup></p>
-		</Section><br><br>
-		<footer>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="@IAmCalvinMas" />
+    <meta
+      name="keywords"
+      content="Web developer, web desiger, freelancing, Portfolio"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Porforlio</title>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <style>
+      .containerMargin {
+        margin-top: 128px;
+      }
 
-		  <hr>
-		  <p>
-			<blockquote>
-				It doesn't matter who we are, what matters is our plan
-			</blockquote>
-			<cite>Batman</cite> by Universal Pictures
-		  </p>
-		</footer>
-		</article>
-	</body>
+      .headingMargin {
+        margin-bottom: 64px;
+      }
+
+      ion-icon {
+        font-size: 64px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-white">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse flex-row-reverse me-auto m-2"
+          id="navbarText"
+        >
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#whoIAm"
+                >Who I Am</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#myWork">My Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#mySkills">My Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#myContacts">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <article
+            title="about me"
+            class="containerMargin carousel-item active"
+            id="whoIAm"
+          >
+            <div class="container">
+              <header class="headingMargin">
+                <h1 class="display-1"><b>Hi</b>, I Am Calvin Mas</h1>
+              </header>
+              <section>
+                <figure>
+                  <blockquote class="blockquote">
+                    I love solving problems and mathematics & coding just drove
+                    human civilization to heights we only thought happen in our
+                    dreams. Today you can literally take an idea, no matter how
+                    crazy or impossible it may sound and see it impact so may
+                    lives that they can't live without it. Crazy right? Was it
+                    not Steve jobs who said,
+                    <q>
+                      The people who are crazy enough to think they can change
+                      the world are the ones who do </q
+                    >? I am crazy, soo crazy, I love it
+                  </blockquote>
+                  <br />
+                  <figcaption class="blockquote-footer">
+                    @IAmCalvinMas
+                  </figcaption>
+                </figure>
+              </section>
+            </div>
+          </article>
+          <article
+            title="my work"
+            class="containerMargin carousel-item"
+            id="myWork"
+          >
+            <div class="container">
+              <header class="headingMargin">
+                <h1 class="display-1"><b>My</b> Work</h1>
+              </header>
+              <section>
+                <p>solved exercies, projects</p>
+              </section>
+            </div>
+          </article>
+          <article
+            title="my skills"
+            class="containerMargin carousel-item"
+            i
+            id="mySkils"
+          >
+            <div class="container">
+              <header class="headingMargin">
+                <h1 class="display-1"><b>My</b> Skills</h1>
+              </header>
+              <section>
+                <div class="row">
+                  <div class="col align-self-center ps-4 text-end">
+                    <img
+                      src="./src/bootstrap.webp"
+                      alt="bootstrap"
+                      style="width: 64px"
+                    />
+                  </div>
+                  <div class="col align-self-center p-4">
+                    <img
+                      src="./src/html5.png"
+                      alt="html5"
+                      title="html 5"
+                      style="width: 128px"
+                    />
+                  </div>
+                  <div class="col m-4 p-4 text-white bg-dark">
+                    <h2>Mathematics</h2>
+                  </div>
+                  <div class="col p-4 text-white">
+                    <img
+                      src="./src/mongoDb.png"
+                      alt="mongoDb"
+                      style="width: 256px"
+                    />
+                  </div>
+                  <div class="col align-self-center p-4 text-white">
+                    <img
+                      src="./src/css3.png"
+                      alt="css3"
+                      title="cascading stylesheet"
+                      style="width: 64px"
+                    />
+                  </div>
+                  <div class="col p-4 text-white">
+                    <img
+                      src="./src/reactJs.png"
+                      alt="mongoDb"
+                      style="width: 128px"
+                    />
+                    ReactJs
+                  </div>
+                  <div class="col m-4 p-4 text-white bg-success">
+                    <h3>Algorithms</h3>
+                  </div>
+                  <div class="col p-4">
+                    <img
+                      src="./src/nodeJs.png"
+                      alt="node js"
+                      style="width: 128px"
+                    />
+                  </div>
+                  <div class="col m-4 p-4 text-white bg-warning">
+                    <h1>ExpressJs</h1>
+                  </div>
+                  <div class="col m-4">
+                    <img src="./src/git.png" alt="git" style="width: 256px" />
+                  </div>
+                  <div class="col m-4 p-4 text-white bg-danger">
+                    <h2>Data structures</h2>
+                  </div>
+                  <div class="col p-4 text-white">
+                    <img src="./src/vim.webp" alt="git" style="width: 128px" />
+                  </div>
+                </div>
+              </section>
+              <section class="containerMargin">
+                <header class="headingMargin">
+                  <h1 class="display-3">
+                    How I Got Into <b>Web Development</b>
+                  </h1>
+                </header>
+                <section>
+                  <p>
+                    At university as a first yearn we were taught C++ but most
+                    of the time even though it felt like were programming, I
+                    didn't see the point of the programs we were building
+                    especially how they would apply in the real world so I
+                    wanted to build something cool and useful Apps were not
+                    popular that time and the browser was the common way to find
+                    information so I came across a book in the library about web
+                    development. I took the book home, sat at the edge of my
+                    bed. And within 30 minutes, I was learning HTML, and for the
+                    first time even though HTML is just a "Markup language", I
+                    was excited because the was progress. <br /><br />
+                    how I began with the WAMP stack in 2014 and have a handful
+                    of failed startups that no one has ever used but I've learnt
+                    a lot from that. Most were built on PHP since it was hyped a
+                    a lot because Facebook was using it. I one day stumbled upon
+                    an article that highlighted why PHP should be avoided, that
+                    really brought me to tears but I was in denial I used its
+                    frameworks such as lavarel and code Igniter but found the
+                    latter to be fun I should say. But still, the fact that
+                    their skeletons were PHP, my mind kept looping to that
+                    article. I finally swallowed my pride and migrated to
+                    Python. Oh was beautiful, simple and effortless. I could
+                    even find apps on the Play store and run it on my phone. I
+                    tried frameworks like Djanjo and Flask but because I was
+                    building simple websites, I opted for Flask. <br /><br />
+                    I realised that most of my websites, the UI/UX was rubbish
+                    because I was more of a backend guy and having to sit on the
+                    monitor picking colors and fonts was not worth my time, so
+                    that's how I discovered bootstrap v3, and it was great
+                    because it was even created and used by twitter. For user
+                    interactivity I had to learn JavaScript but that took me
+                    time, but the second I came to terms with it, I saw how
+                    impactful it had on my work and the term "SPA" and "MEAN
+                    stack" were being thrown around much in the term world so I
+                    tried Angular Js but never really held on, I sticked to
+                    backend again. As years went by, I realised how difficult
+                    and ineffeciet it was for the frontend and the backend to
+                    communicate. I had to use JavaScript, JSON, AJAX, MYSQL,
+                    PHP/FLASK/DJANGO just to respond to the client's request. So
+                    I browsed for a solution online and the "MEAN stack" came up
+                    again but as I was about to jump ship, a mega yatch swooped
+                    in in titled the "MERN stack" and I've been happy ever
+                    since. And the funny thing is that React Js was built by
+                    Facebook.
+                  </p>
+                </section>
+              </section>
+            </div>
+          </article>
+          <article
+            class="containerMargin carousel-item"
+            title="how to contact me"
+            id="myContacts"
+          >
+            <div class="container">
+              <header class="headingMargin">
+                <h1 class="display-1">Contact <b>Me</b></h1>
+              </header>
+              <section>
+                <div class="row align-items-start">
+                  <div class="col align-self-center">
+                    <a
+                      target="_blank"
+                      href="https://github.com/@IAmCalvinMas"
+                      class="text-dark"
+                    >
+                      <ion-icon name="logo-github" class="w-50"></ion-icon>
+                    </a>
+                  </div>
+
+                  <div class="col align-self-center">
+                    <a
+                      target="_blank"
+                      href="https://.com/@IAmCalvinMas"
+                      class="text-dark"
+                    >
+                      <ion-icon name="logo-tiktok"></ion-icon>
+                    </a>
+                  </div>
+                  <div class="col align-self-center">
+                    <a
+                      target="_blank"
+                      href="https://youtube.com/@IAmCalvinMas"
+                      class="text-dark"
+                    >
+                      <ion-icon name="logo-youtube"></ion-icon>
+                    </a>
+                  </div>
+
+                  <div class="col align-self-center">
+                    <a
+                      target="_blank"
+                      href="https://instagram.com/IAmCalvinMas"
+                      class="text-dark"
+                    >
+                      <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                  </div>
+
+                  <div class="col align-self-center">
+                    <a
+                      href="https://twitter.com/IAmCalvinMas"
+                      target="_blank"
+                      class="text-dark"
+                    >
+                      <ion-icon name="logo-twitter"></ion-icon>
+                    </a>
+                  </div>
+
+                  <div class="col">
+                    <a
+                      href="mailto:calvinmasza@gmail.com"
+                      class="text-dark"
+                      target="_blank"
+                    >
+                      <ion-icon name="mail-outline"></ion-icon>
+                    </a>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </article>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <footer class="containerMargin container">
+        <hr />
+        <br />
+        <p>Copyright &#169; Designed with love by Calvin Mas</p>
+      </footer>
+    </main>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
 </html>
