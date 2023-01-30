@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @IAmCalvinMas
-- 👀 I’m interested in web development
-- 🌱 I’m currently learning the MERN STACK
-- 💞️ I’m looking to collaborate on web development
+- 👀 I’m interested in C and python development
+- 🌱 I’m currently learning the software engineering with ALX AFRICA
+- 💞️ I’m looking to collaborate on python, C and web developent projects
 - 📫 How to reach me on @IAmCalvinMas on Twitter, Youtube, Istagram and Tiktok
 
 <!---
